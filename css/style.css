@@ -1,0 +1,54 @@
+.container {
+    position: relative;
+    border: 5px solid black;
+    background-color: rgb(220, 220, 224);
+    padding-top: 10px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+    font-family: "Open Sans";
+}
+
+label {
+    font-family: "Open Sans";
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+::placeholder {
+    font-size: 12pt;
+    font-family: 'Open Sans';
+    font-weight: normal;
+}
+
+:-ms-input-placeholder {
+    font-size: 12pt;
+    font-family: 'Open Sans';
+    font-weight: normal;
+}
+
+ ::-ms-input-placeholder {
+    font-size: 12pt;
+    font-family: 'Open Sans';
+    font-weight: normal;
+}
+
+.form-check-label {
+    font-family: "Open Sans";
+    font-size: 12pt;
+}
+
+button {
+    font-family: "Open San";
+    font-size: 10pt;
+    font-weight: bold;
+}
